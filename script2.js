@@ -10,7 +10,7 @@ let newhit;
 
 function makeBubble() {
     bubbleBox = ""; // Reset bubbleBox
-    for (let i = 1; i <148; i++) {
+    for (let i = 1; i <87; i++) {
         bubbleBox += `<div class="bubble">${Math.floor(Math.random() * 10)}</div>`;
     }
     pbtm.innerHTML = bubbleBox;
