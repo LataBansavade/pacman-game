@@ -47,13 +47,13 @@ header{
     color: #12f7ff;
     text-decoration: none;
     font-weight: 600;
-    margin-left: -150px;
+    margin-left: -130px;
 }
 
 .navlist{
     display: flex;
     align-items: center;
-    margin-left: 65%;
+    margin-left: 60%;
     margin-right: -10%;
 }
 
@@ -62,7 +62,7 @@ header{
     color: #fff;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 20px;
     padding: 5px 15px;
     /* border: 2px solid #1d002c; */
     border-radius: 25px;
@@ -162,18 +162,18 @@ section{
 }
 
 .products h1{
-    font-size: 3rem;
+    font-size: 50px;
     padding: 2rem 0 1rem 0;
     text-align: center;
     margin-bottom: 4rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .product-card{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 1rem;
+    gap: 2rem;
 }
 .card{
     padding: 1rem;

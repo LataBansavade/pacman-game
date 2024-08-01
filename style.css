@@ -24,7 +24,7 @@ body {
     justify-content: space-around;
 }
 .pacman_navbar h1:hover{
-    text-shadow:10px 50px 4px #a893b8;
+    text-shadow:10px 30px 4px #a893b8;
     transition: all 0.3s ease;
     
 }
