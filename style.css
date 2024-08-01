@@ -1,0 +1,78 @@
+body {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    background-color:  #1d002c;
+    color: white;
+}
+
+#gameArea {
+    width: 600px;
+    height: 400px;
+    margin: 70px auto;
+    position: relative;
+    border: 2px solid #fff;
+    background-color: #000;
+    overflow: hidden;
+    scale: 1.2;
+}
+#startButton{
+    margin-top: 20px;
+}
+.pacman_navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pacman_navbar h1:hover{
+    text-shadow:10px 50px 4px #a893b8;
+    transition: all 0.3s ease;
+    
+}
+.pacman_navbar a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+}
+.pacman_navbar a:hover{
+    color: #8b5cad;
+    transition: all 0.3s ease;
+}
+.pacman, .item, .ghost {
+    font-size: 30px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+button {
+    background-color: #12f7ff;
+    color: #1d002c;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
+    border: 2px solid #12f7ff;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #24023d;
+    color: white;
+}
+
+#message {
+    font-size: 24px;
+    color:#12f7ff;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color:  #1d002c;
+    color: rgb(4, 38, 27);
+}
+
+
+#pbtm h1, #pbtm button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#tryAgain {
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #12f7ff;
+    color: #1d002c;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 1rem 1rem;
+    transition: all 0.3s ease;
+    border: 2px solid #12f7ff;
+    font-weight: 500;
+}
+
+#tryAgain:hover {
+    box-shadow: 0 0 1rem #12f7ff;
+    background: #1d002c;
+    color: #12f7ff;
+}
+
+.navBar{
+    display: flex;
+    width: 800px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    margin-top: -50px;
+}
+.navBar a{
+    text-decoration: none;
+    color: aquamarine;
+    font-size: 20px;
+    text-shadow: 1px 1px 10px rgb(205, 212, 205);
+}
+.navBar h1{
+    color: rgb(126, 240, 204);
+}
+.navBar h1:hover{
+    text-shadow: -55px 25px 5px rgb(126, 240, 204);
+    transition: all 0.3s ease;
+}
+#panel{
+    height: 85%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    background-color:#8e4bad;
+}
+
+.elem{
+    display: flex;
+    /* background-color: aqua; */
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+   font-size: 17px;
+   font-weight: 700;
+   color: white;
+   gap: 15px;
+}
+.box{
+   
+    background-color: aliceblue;
+    padding: 10px 20px;
+    font-size: 23px;
+    border-radius: 5px;
+    color: black;
+}
+#pbtm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding:  15px 15px;
+    height:90%;
+    width: 100%;
+   
+}
+.bubble{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color:#8e4bad;
+    color:rgb(2, 2, 2);
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.bubble:hover{
+    background-color: rgb(71, 79, 71);
+    cursor: pointer;
+}
