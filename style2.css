@@ -119,8 +119,8 @@ html,body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 65px;
-    height: 65px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color:#8e4bad;
     color:rgb(2, 2, 2);
